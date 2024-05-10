@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ecommerceapp
+    password: ecommerceapp
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+#  sql:
+#    init:
+#      mode: always
+#  config:
+#    import: "optional:configserver:http://localhost:8071/"
+
+log:
+  appName: service name default
