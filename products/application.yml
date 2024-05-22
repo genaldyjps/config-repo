@@ -2,6 +2,10 @@ server:
   port: 8080
 
 spring:
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
   datasource:
     url: jdbc:mysql://localhost:3306/productsdb?useSSL=false&useUnicode=yes&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&serverTimezone=UTC
 
